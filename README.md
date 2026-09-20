@@ -38,7 +38,7 @@ ln -s "$PWD/package" ~/Documents/Max\ 9/Packages/ffgl_for_max
 Restart Max and open the help patch (`jit.gl.ffgl.maxhelp`).
 
 Requirements: CMake 3.19+, Xcode command line tools. The build is arm64 by default; for Intel or
-a universal binary use `-DCMAKE_OSX_ARCHITECTURES="arm64;x86_64"`. The Max SDK is a git submodule
+a universal binary use `-DCMAKE_OSX_ARCHITECTURES="arm64;x86_64"`. The Max SDK base (`Cycling74/max-sdk-base`) is a git submodule
 (`git submodule update --init` if you cloned without `--recursive`).
 
 ## Use
@@ -100,7 +100,7 @@ source/host/         Max-independent FFGL host (ffgl_host.h/.mm): loading, param
 source/jit.gl.ffgl/  the Jitter class + Max wrapper
 package/             the Max package (help patch; externals/ is build output)
 tools/               ffgl_probe and run_max_patch.sh
-third_party/         FFGL headers (BSD-3), Max SDK (submodule)
+third_party/         FFGL headers (BSD-3), max-sdk-base (submodule)
 docs/host-notes.md   behaviours a host must match for real-world plugins
 ```
 

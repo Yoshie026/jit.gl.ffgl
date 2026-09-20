@@ -28,7 +28,7 @@ target_link_libraries(ffgl_probe PRIVATE ffgl_host
 
 # --- the Max external ---------------------------------------------------------
 option(FFGL_BUILD_EXTERNAL "Build the jit.gl.ffgl Max external" ON)
-set(FFGL_MAX_SDK "${CMAKE_CURRENT_SOURCE_DIR}/third_party/max-sdk/source/max-sdk-base"
+set(FFGL_MAX_SDK "${CMAKE_CURRENT_SOURCE_DIR}/third_party/max-sdk-base"
     CACHE PATH "Path to max-sdk-base")
 if(FFGL_BUILD_EXTERNAL)
   add_subdirectory(source/jit.gl.ffgl)
