@@ -1,0 +1,11 @@
+{
+  "name": "ffgl_for_max",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "kosaka",
+  "description": "jit.gl.ffgl — a GPU-based host for FFGL 2.x plugins in Max/Jitter",
+  "displayname": "FFGL for Max",
+  "max_version_min": "8.0",
+  "os": { "macintosh": { "min_version": "11.0" } },
+  "package_extra": {}
+}

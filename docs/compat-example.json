@@ -1,0 +1,9 @@
+{
+  "plugins": ["MyPlugin", "MyFamily*"],
+  "port_guard": {
+    "base_port_env": "MY_PLUGIN_PORT",
+    "default_base_port": 8081,
+    "lanes": 8,
+    "limit_env": "MY_PLUGIN_LANES"
+  }
+}

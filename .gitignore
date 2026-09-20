@@ -1,0 +1,8 @@
+# build output
+build/
+package/externals/
+# local test output (traces, screenshots, logs)
+out/
+# reference-only third-party source, not part of this project
+third_party/reference/
+.DS_Store
